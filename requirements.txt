@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+nltk
+joblib
+kagglehub
+openai
+python-dotenv
+fastapi
+uvicorn
