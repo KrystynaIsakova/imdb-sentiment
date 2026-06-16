@@ -29,7 +29,6 @@ def get_wordnet_pos(tag):
 
 def preprocess_text(text):
     text = text.lower()
-    text = re.sub(r"<br\s*/?>", " ", text)
     text = re.sub(r"\d+", "", text)
     text = re.sub(r"[^\w\s]", "", text)
 
